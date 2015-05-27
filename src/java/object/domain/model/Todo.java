@@ -23,7 +23,6 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
- * @author 9918
  */
 @Entity
 @Table(name = "todo")

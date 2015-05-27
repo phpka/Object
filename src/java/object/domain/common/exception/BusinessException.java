@@ -9,7 +9,6 @@ import javax.ejb.ApplicationException;
 
 /**
  *
- * @author 9918
  */
 @ApplicationException
 public class BusinessException extends RuntimeException {

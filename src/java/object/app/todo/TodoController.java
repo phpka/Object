@@ -10,16 +10,13 @@ import javax.annotation.PostConstruct;
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-import javax.inject.Named;
 import object.domain.model.Todo;
 import object.domain.service.todo.TodoService;
 
 /**
  *
- * @author 9918
  */
-//@ManagedBean
-@Named(value="todoController")
+@ManagedBean
 @RequestScoped
 public class TodoController {
     @EJB

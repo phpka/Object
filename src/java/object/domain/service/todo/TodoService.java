@@ -17,7 +17,6 @@ import object.domain.model.Todo;
 
 /**
  *
- * @author 9918
  */
 @Stateless
 public class TodoService {
